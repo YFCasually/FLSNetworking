@@ -123,8 +123,8 @@ final class FLSDemoModel {
     private func progressHandler(id: UUID) -> @Sendable (FLSTransferProgress) -> Void {
         { [weak self] snapshot in
             Task { @MainActor [weak self] in
-                guard let self, operationID == id else { return }
-                progress = snapshot.fractionCompleted
+                guard let self, self.operationID == id else { return }
+                self.progress = snapshot.fractionCompleted
             }
         }
     }
