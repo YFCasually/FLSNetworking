@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13CC6D337FA4701DB25F3FEC /* FLSNetworking in Frameworks */ = {isa = PBXBuildFile; productRef = B7E4BF1AC53D22C1BB8F3C2E /* FLSNetworking */; };
+		22407E7667C5BC5AC2360E01 /* FLSDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35D097653B8D269DD64C966 /* FLSDemoView.swift */; };
+		365AD057DA5C0F127E4F4537 /* FLSDemoAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F63816DD46C0999B03062C /* FLSDemoAction.swift */; };
+		667EAA51E4889B776D7E56F2 /* FLSDemoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E27A4891E2338BCFC8EED2 /* FLSDemoModel.swift */; };
+		8232695B559FFF8564AAFB87 /* FLSDemoServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4F8E9CDCCD447C6BE5B5AD /* FLSDemoServer.swift */; };
+		A8C2DB6A46C05885ABFC4F9E /* FLSDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD5F2561363813B1EA31092 /* FLSDemoUITests.swift */; };
+		D420CBBF4A41B9C19CFEBD72 /* FLSDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22FB369895B840AAA5B614F /* FLSDemoApp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		332C6C28F9D8500E36762D3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4393A4A4B25A08B70A26628 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD11D990EED7359AC972A659;
+			remoteInfo = FLSNetworkingDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8C4F8E9CDCCD447C6BE5B5AD /* FLSDemoServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLSDemoServer.swift; sourceTree = "<group>"; };
+		90FC323D4A90ED78D24D0DDF /* FLSNetworkingDemoUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = FLSNetworkingDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99E27A4891E2338BCFC8EED2 /* FLSDemoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLSDemoModel.swift; sourceTree = "<group>"; };
+		D45233F9C003566A2526EBAD /* FLSNetworking */ = {isa = PBXFileReference; lastKnownFileType = folder; name = FLSNetworking; path = ../..; sourceTree = SOURCE_ROOT; };
+		E22FB369895B840AAA5B614F /* FLSDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLSDemoApp.swift; sourceTree = "<group>"; };
+		EBADBF6DEB3A2F9780D8CE3C /* FLSNetworkingDemo.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = FLSNetworkingDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2F63816DD46C0999B03062C /* FLSDemoAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLSDemoAction.swift; sourceTree = "<group>"; };
+		F35D097653B8D269DD64C966 /* FLSDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLSDemoView.swift; sourceTree = "<group>"; };
+		FFD5F2561363813B1EA31092 /* FLSDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLSDemoUITests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0EAA41118CF3BF102137FA26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13CC6D337FA4701DB25F3FEC /* FLSNetworking in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F4FD76F1A40C011C7A2A199 = {
+			isa = PBXGroup;
+			children = (
+				EAD27C91F3E80E4D9DEC90B4 /* Packages */,
+				415F2582332B4057A72EA8F9 /* Sources */,
+				9159A9BD5EA93A0D8A9D2FB1 /* UITests */,
+				9D8A4F2C8A7EA803B5B8AF4E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		415F2582332B4057A72EA8F9 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				F2F63816DD46C0999B03062C /* FLSDemoAction.swift */,
+				E22FB369895B840AAA5B614F /* FLSDemoApp.swift */,
+				99E27A4891E2338BCFC8EED2 /* FLSDemoModel.swift */,
+				8C4F8E9CDCCD447C6BE5B5AD /* FLSDemoServer.swift */,
+				F35D097653B8D269DD64C966 /* FLSDemoView.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		9159A9BD5EA93A0D8A9D2FB1 /* UITests */ = {
+			isa = PBXGroup;
+			children = (
+				FFD5F2561363813B1EA31092 /* FLSDemoUITests.swift */,
+			);
+			path = UITests;
+			sourceTree = "<group>";
+		};
+		9D8A4F2C8A7EA803B5B8AF4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBADBF6DEB3A2F9780D8CE3C /* FLSNetworkingDemo.app */,
+				90FC323D4A90ED78D24D0DDF /* FLSNetworkingDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAD27C91F3E80E4D9DEC90B4 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				D45233F9C003566A2526EBAD /* FLSNetworking */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F282746964540E8B335B4FD /* FLSNetworkingDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BC624CF7E8B847FA85320FE /* Build configuration list for PBXNativeTarget "FLSNetworkingDemoUITests" */;
+			buildPhases = (
+				466F7762B46E2BF028B7F2DB /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C65F0258521B86E367B9674 /* PBXTargetDependency */,
+			);
+			name = FLSNetworkingDemoUITests;
+			packageProductDependencies = (
+			);
+			productName = FLSNetworkingDemoUITests;
+			productReference = 90FC323D4A90ED78D24D0DDF /* FLSNetworkingDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		CD11D990EED7359AC972A659 /* FLSNetworkingDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE758523EBA431F4F27D7502 /* Build configuration list for PBXNativeTarget "FLSNetworkingDemo" */;
+			buildPhases = (
+				1627C4712A88BA5700629743 /* Sources */,
+				0EAA41118CF3BF102137FA26 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FLSNetworkingDemo;
+			packageProductDependencies = (
+				B7E4BF1AC53D22C1BB8F3C2E /* FLSNetworking */,
+			);
+			productName = FLSNetworkingDemo;
+			productReference = EBADBF6DEB3A2F9780D8CE3C /* FLSNetworkingDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4393A4A4B25A08B70A26628 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					6F282746964540E8B335B4FD = {
+						ProvisioningStyle = Automatic;
+						TestTargetID = CD11D990EED7359AC972A659;
+					};
+					CD11D990EED7359AC972A659 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DF3DCD974F3C7D79555596B7 /* Build configuration list for PBXProject "FLSNetworkingDemo" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 2F4FD76F1A40C011C7A2A199;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				A3170B96720DEA5620B26D15 /* XCLocalSwiftPackageReference "../.." */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 9D8A4F2C8A7EA803B5B8AF4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD11D990EED7359AC972A659 /* FLSNetworkingDemo */,
+				6F282746964540E8B335B4FD /* FLSNetworkingDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1627C4712A88BA5700629743 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				365AD057DA5C0F127E4F4537 /* FLSDemoAction.swift in Sources */,
+				D420CBBF4A41B9C19CFEBD72 /* FLSDemoApp.swift in Sources */,
+				667EAA51E4889B776D7E56F2 /* FLSDemoModel.swift in Sources */,
+				8232695B559FFF8564AAFB87 /* FLSDemoServer.swift in Sources */,
+				22407E7667C5BC5AC2360E01 /* FLSDemoView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		466F7762B46E2BF028B7F2DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8C2DB6A46C05885ABFC4F9E /* FLSDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1C65F0258521B86E367B9674 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD11D990EED7359AC972A659 /* FLSNetworkingDemo */;
+			targetProxy = 332C6C28F9D8500E36762D3B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1F19E6E14CBD5DFD03180D15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		53A1456CB7966890169C80B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.flsexamples.networking.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FLSNetworkingDemo;
+			};
+			name = Release;
+		};
+		5C2B1A6706DD220AAFD2148D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		86731807C0B54A0FF877A344 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.flsexamples.networking.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FLSNetworkingDemo;
+			};
+			name = Debug;
+		};
+		8A21EA3A6A18FE60E305FE41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.flsexamples.networking;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A12A74C88BBA588910E02B5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.flsexamples.networking;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4BC624CF7E8B847FA85320FE /* Build configuration list for PBXNativeTarget "FLSNetworkingDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86731807C0B54A0FF877A344 /* Debug */,
+				53A1456CB7966890169C80B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DF3DCD974F3C7D79555596B7 /* Build configuration list for PBXProject "FLSNetworkingDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F19E6E14CBD5DFD03180D15 /* Debug */,
+				5C2B1A6706DD220AAFD2148D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FE758523EBA431F4F27D7502 /* Build configuration list for PBXNativeTarget "FLSNetworkingDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A21EA3A6A18FE60E305FE41 /* Debug */,
+				A12A74C88BBA588910E02B5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		A3170B96720DEA5620B26D15 /* XCLocalSwiftPackageReference "../.." */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../..;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B7E4BF1AC53D22C1BB8F3C2E /* FLSNetworking */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FLSNetworking;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C4393A4A4B25A08B70A26628 /* Project object */;
+}

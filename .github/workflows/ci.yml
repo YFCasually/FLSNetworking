@@ -1,0 +1,28 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: macos-15
+    timeout-minutes: 15
+    env:
+      DEVELOPER_DIR: /Applications/Xcode_16.4.app/Contents/Developer
+    steps:
+      - uses: actions/checkout@v4
+      - name: Toolchain
+        run: swift --version
+      - name: Test
+        run: swift test
+      - name: Release build
+        run: swift build -c release
+      - name: iOS simulator build
+        run: xcodebuild -scheme FLSNetworking -destination 'generic/platform=iOS Simulator' -derivedDataPath .build/DerivedData build CODE_SIGNING_ALLOWED=NO
+      - name: SwiftUI demo build
+        run: xcodebuild -project Examples/FLSNetworkingDemo/FLSNetworkingDemo.xcodeproj -scheme FLSNetworkingDemo -destination 'generic/platform=iOS Simulator' -derivedDataPath .build/DemoDerivedData build CODE_SIGNING_ALLOWED=NO
