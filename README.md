@@ -29,6 +29,8 @@ https://github.com/YFCasually/FLSNetworking.git
 
 接入后只需 `import FLSNetworking`，业务层无需导入 Alamofire。
 
+请求体通过 `.json(model)` 编码 `Encodable`；已有 JSON 字节使用 `.jsonData(data)`，也支持 `.form` 与 `.raw`。
+
 ## 可运行 Demo
 
 打开 [`Examples/FLSNetworkingDemo/FLSNetworkingDemo.xcodeproj`](Examples/FLSNetworkingDemo/FLSNetworkingDemo.xcodeproj)，选择 iOS 17+ 模拟器后运行。Demo 使用 SwiftUI，通过本地 SPM 依赖引用组件，内置仅监听回环地址的模拟服务，运行时无需后端或 API Key。

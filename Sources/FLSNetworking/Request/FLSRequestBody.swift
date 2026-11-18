@@ -3,13 +3,14 @@ import Foundation
 /// Explicit body encoding. GET/HEAD requests must use query items instead.
 public enum FLSRequestBody: Sendable {
     case none
-    case json(Data)
+    /// Already encoded JSON bytes. Use json(_:) to encode an Encodable value.
+    case jsonData(Data)
     case form([URLQueryItem])
     case raw(Data, contentType: String?)
 
     public static func json<T: Encodable>(_ value: T, encoder: JSONEncoder = JSONEncoder()) throws -> Self {
         do {
-            return .json(try encoder.encode(value))
+            return .jsonData(try encoder.encode(value))
         } catch {
             throw FLSNetworkError.encoding(underlying: error)
         }
@@ -19,7 +20,7 @@ public enum FLSRequestBody: Sendable {
         switch self {
         case .none:
             return
-        case .json(let data):
+        case .jsonData(let data):
             request.httpBody = data
             setContentType("application/json", on: &request)
         case .form(let items):
